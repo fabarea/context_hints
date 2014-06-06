@@ -1,0 +1,26 @@
+# cat=basic; type=bool; label=Display Production context as well: Tell whether Production context must also be displayed in the BE. If not checked, only Development and Testing context will be displayed.
+displayProductionContext = 1
+
+# cat=basic; type=string; label=Tool tip for "MAIL" section: Comma separated list of variables displayed as toolTip coming from TYPO3_CONF_VARS[MAIL].
+mailToolTip = development.recipients
+
+# cat=basic; type=string; label=Tool tip for "DB" section: Comma separated list of variables displayed as toolTip coming from TYPO3_CONF_VARS[DB].
+dbToolTip = database
+
+# cat=basic; type=string; label=Tool tip for "LOG" section: Comma separated list of variables displayed as toolTip coming from TYPO3_CONF_VARS[LOG].
+logToolTip =
+
+# cat=basic; type=string; label=Tool tip for "GFX" section: Comma separated list of variables displayed as toolTip coming from TYPO3_CONF_VARS[GFX].
+gfxToolTip =
+
+# cat=basic; type=string; label=Tool tip for "SYS" section: Comma separated list of variables displayed as toolTip coming from TYPO3_CONF_VARS[SYS].
+sysToolTip = systemLogLevel
+
+# cat=basic; type=string; label=Tool tip for "BE" section: Comma separated list of variables displayed as toolTip coming from TYPO3_CONF_VARS[BE].
+beToolTip =
+
+# cat=basic; type=string; label=Tool tip for "FE" section: Comma separated list of variables displayed as toolTip coming from TYPO3_CONF_VARS[BE].
+feToolTip =
+
+# cat=basic; type=string; label=Tool tip for "HTTP" section: Comma separated list of variables displayed as toolTip coming from TYPO3_CONF_VARS[HTTP].
+httpToolTip =
