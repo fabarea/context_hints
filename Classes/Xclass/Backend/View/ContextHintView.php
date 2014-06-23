@@ -1,5 +1,5 @@
 <?php
-namespace Vanilla\ApplicationContextHints\Xclass\Backend\View;
+namespace Vanilla\ContextHints\Xclass\Backend\View;
 
 /***************************************************************
  *
@@ -32,12 +32,12 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 /**
  * Application Context view.
  */
-class ApplicationContextView extends LogoView {
+class ContextHintView extends LogoView {
 
 	/**
 	 * @var string
 	 */
-	protected $extensionKey = 'application_context_hints';
+	protected $extensionKey = 'context_hints';
 
 	/**
 	 * @var array
@@ -148,7 +148,12 @@ class ApplicationContextView extends LogoView {
 			$value = $haystack[$key];
 		} else {
 			$key = array_shift($needles);
-			return $this->search($haystack[$key], $needles);
+
+			$strippedHaystack = array();
+			if (is_array($haystack[$key])) {
+				$strippedHaystack = $haystack[$key];
+			}
+			return $this->search($strippedHaystack, $needles);
 		}
 		return $value;
 	}

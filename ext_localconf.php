@@ -7,5 +7,5 @@ if(!defined('TYPO3_MODE')){
 /***************
  * Backend Styling
  */
-$GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects']['TYPO3\\CMS\\Backend\\View\\LogoView']['className'] = 'Vanilla\\ApplicationContextHints\\Xclass\\Backend\\View\\ApplicationContextView';
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects']['TYPO3\\CMS\\Backend\\View\\LogoView']['className'] = 'Vanilla\\ContextHints\\Xclass\\Backend\\View\\ContextHintView';
 
