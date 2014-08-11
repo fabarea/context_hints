@@ -1,5 +1,5 @@
 <?php
-namespace Vanilla\ContextHints\Xclass\Backend\View;
+namespace Fab\ContextHints\Xclass\Backend\View;
 
 /***************************************************************
  *
