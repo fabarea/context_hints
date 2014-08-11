@@ -1,0 +1,13 @@
+# This is the project specific Settings.yml file.
+# Place Sphinx specific build information here.
+# Settings given here will replace the settings of 'conf.py'.
+
+---
+conf.py:
+  copyright: 2014 to now
+  project: Display a little hint in the Backend about the current Application Context
+  version: 1.0
+  release: 1.0.0
+
+  master_doc: README
+...
