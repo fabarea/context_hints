@@ -18,16 +18,16 @@ $EM_CONF[$_EXTKEY] = array (
   'state' => 'stable',
   'clearCacheOnLoad' => 0,
   'version' => '1.0.0-dev',
-  'constraints' => 
+  'constraints' =>
   array (
-    'depends' => 
+    'depends' =>
     array (
       'typo3' => '6.2.0-6.2.99',
     ),
-    'conflicts' => 
+    'conflicts' =>
     array (
     ),
-    'suggests' => 
+    'suggests' =>
     array (
       'metadata' => '',
     ),
@@ -35,5 +35,3 @@ $EM_CONF[$_EXTKEY] = array (
   'user' => 'fab1en',
   'comment' => 'First upload',
 );
-
-?>

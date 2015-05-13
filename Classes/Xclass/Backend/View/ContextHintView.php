@@ -97,9 +97,14 @@ class ContextHintView extends LogoView {
 
 			$toolTips = array();
 
+			// Display CMS info
+			$toolTips[] = sprintf('<strong>TYPO3 CMS</strong>');
+			$toolTips[] = sprintf('<ul><li>version: %s</li></ul>', TYPO3_version);
+
 			foreach ($this->sections as $section) {
 				$key = strtolower($section) . 'ToolTip';
 				$variables = GeneralUtility::trimExplode(',', $configuration[$key], TRUE);
+
 				if (!empty($variables)) {
 
 					$toolTips[] = sprintf('<strong>%s</strong>', $section);
