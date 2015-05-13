@@ -1,13 +1,12 @@
 {
 	"name": "fab/context-hints",
 	"type": "typo3-cms-extension",
-	"description": "Display a little hint in the Backend about the current Application Context.",
-	"homepage": "https://github.com/fudriot/context_hints",
+	"description": "Display hints about the current Application Context",
+	"homepage": "https://github.com/fabarea/context_hints",
 	"license": ["GPL-2.0+"],
 	"keywords": ["TYPO3 CMS", "context", "info"],
 	"support": {
-		"issues": "https://github.com/fudriot/context_hints/issues"
+		"issues": "https://github.com/fabarea/context_hints/issues"
 	},
-	"version": "1.0.1-dev"
+	"version": "1.1.0"
 }
-
