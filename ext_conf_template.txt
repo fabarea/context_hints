@@ -14,7 +14,7 @@ logToolTip =
 gfxToolTip =
 
 # cat=basic/tooltip/60; type=string; label=Tool tip for "SYS" section: Comma separated list of variables displayed as toolTip within TYPO3_CONF_VARS[SYS].
-sysToolTip = systemLogLevel
+sysToolTip = devIPmask
 
 # cat=basic/tooltip/70; type=string; label=Tool tip for "BE" section: Comma separated list of variables displayed as toolTip within TYPO3_CONF_VARS[BE].
 beToolTip =
